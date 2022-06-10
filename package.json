@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.3"
+  }
+}
