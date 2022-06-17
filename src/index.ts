@@ -12,10 +12,10 @@ form.addEventListener("submit", (e) => {
 })
 
 function addGoalItem(goal: string) {
+  const todoItemList = document.getElementById("todoItemList") as HTMLUListElement
+
   const item = document.createElement("li")
-  const label = document.createElement("label")
-  const checkbox = document.createElement("input")
-  checkbox.type = "checkbox"
-  label.append(checkbox, goal)
-  item.append(label)
+
+  todoItemList.append(item)
+  item.append(goal)
 }
