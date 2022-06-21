@@ -16,6 +16,6 @@ function addGoalItem(goal: string) {
 
   const item = document.createElement("li")
 
-  item.innerHTML = goal
   todoItemList.append(item)
+  item.innerHTML = goal
 }
