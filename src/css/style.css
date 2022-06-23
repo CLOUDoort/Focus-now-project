@@ -44,3 +44,7 @@ a {
 blockquote {
   text-align: center;
 }
+
+footer {
+  display: flex;
+}
